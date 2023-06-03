@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>wishes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="h-one">Go a head and wish</h1>
+            <h3 id="h-three">please go through the list to verify your name </h3>
+            <video id="myVideo" autoplay loop>
+                <source src="VID-20230602-WA0011.mp4" type="video/mp4">
+                 Your browser does not support the video tag.
+               </video>
+            <!-- <form action='list.html' onsubmit="window.location.href='list.html';"> -->
+            <form>
+            <input type="text" id="name-field" placeholder="Enter Your name..." required>
+            <input type="text" id="name-field2" placeholder="Enter the message..." required>
+           <!-- <a href="list.html"><button id="wish-button">Wish</button></a> -->
+           <p id="para"></p>
+           <button  id="wish-button">WISH </button>
+           <button  id="wish-button1" onclick="window.location.href='list.html';">LIST</button>
+           <!-- <button id="wish-button" type="submit">Wish</button> -->
+        </form>
+        </div>
+        <script src="script.js" type="module"></script>
+    </body>
+</html>

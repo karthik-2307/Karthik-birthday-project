@@ -1,0 +1,155 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: black;
+    user-select: none;
+}
+#para
+{
+    color: white;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    background-color: black;
+    height: 900px;
+    margin: 30px auto;
+}
+#h-one
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+}
+#wish-button 
+{
+    color: #FDFDFD;
+    background-color: #f38b14;
+    border: 0;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    width: 270px;
+}
+#wish-button1
+{
+    color: #FDFDFD;
+    background-color: #f38b14;
+    border: 0;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    width: 270px;   
+}
+button:hover
+{
+    background-color: #04f34c;
+    color: #dc3838;
+    cursor: pointer;
+}
+#add-button
+{
+    /* margin-top: 500px; */
+    margin: 25px;
+    color: #FDFDFD;
+    background-color: grey;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    width: 225px;
+}
+#myVideo
+{
+    margin: 10px;
+    border-radius: 10px;
+}
+input {
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+#name-field
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#name-field2
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    text-align: center;
+    justify-content: center;
+}
+ul li
+{
+    font-size: 10px;
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+.cont1
+{
+    margin-right: 35px;
+}
+#h-three
+{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+}
+#fun-button
+{
+    margin: 25px;
+    color: #FDFDFD;
+    background-color: grey;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    /* width: 225px; */
+}
+#fun-button:hover
+{
+    background-color: #04f34c;
+    color: #dc3838;
+    cursor: pointer;
+}
+img
+{
+    margin: 10px;
+    border-radius: 8px;
+    /* width: 250px; */
+}
